@@ -2,22 +2,13 @@
 #include <string.h>
 #include "Venue.h"
 #include "cassert"
-#include "Seat_Row.h"
 #include <fstream>
 
 using namespace std;
 
 Venue::Venue(const string& name_, Address& address_) :
-	name(name_), address(&address_), number_of_seat_rows(0), capacity(0)
+	name(name_), address(&address_), capacity(0)
 {
-}
-
-
-void Venue::Add_Seat_Row(Seat_Row* seat_row)
-{
-	assert(number_of_seat_rows < MAX_SEAT_ROWS - 1);
-	seat_rows[number_of_seat_rows++] = seat_row;
-	capacity += seat_row->Number_of_Seats();
 }
 
 
