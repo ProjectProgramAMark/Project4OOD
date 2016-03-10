@@ -24,6 +24,6 @@ ostream& operator << (ostream& os, const Address* address)
 	os << address->GetCity() << ", "
 		<< address->GetState()
 		<< " " << setfill('0')
-		<< setw(5) << address->GetZip_code();
+		<< setw(5) << address->Get_Zip_code();
 	return os;
 }

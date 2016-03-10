@@ -40,6 +40,11 @@ ostream& operator<<(ostream& os, const Venue* venue)
 	return os;
 }
 
+bool operator<(const Venue& venue1, const Venue& venue2)
+{
+    return venue1.GetAddress()->Get_Zip_code() < venue2.GetAddress()->Get_Zip_code();
+}
+
 /*bool Venue::operator > (const Venue& other)  const
 {
 

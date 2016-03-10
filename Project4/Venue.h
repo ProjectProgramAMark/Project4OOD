@@ -28,6 +28,8 @@ public:
 	Seat_Row* Get_Seat_Row(int i) const { return seat_rows[i]; };
 	void Display() const;
 	//bool operator > (const Venue& other)  const;
+    friend bool operator<(const Venue& venue1, const Venue& venue2);
+
 };
 
 ostream& operator << (ostream& os, const Venue* venue);

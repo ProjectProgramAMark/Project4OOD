@@ -29,6 +29,8 @@ void Clear_Keyboard_Input_Buffer(ifstream &myfile) {
 	return row;
 }*/
 
+void Sort_Venue
+
 int Get_Venue(Venue** Venue_Array, int Max_Venues)
 {
     int count = 0;
