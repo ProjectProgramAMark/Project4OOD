@@ -40,13 +40,13 @@
 		166418C61C90EE8200A5840B /* Seat_Row.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seat_Row.h; sourceTree = "<group>"; };
 		166418C71C90EE8200A5840B /* Seat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Seat.cpp; sourceTree = "<group>"; };
 		166418C81C90EE8200A5840B /* Seat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seat.h; sourceTree = "<group>"; };
-		166418C91C90EE8200A5840B /* tampa_venues.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tampa_venues.txt; sourceTree = "<group>"; };
 		166418CA1C90EE8200A5840B /* Ticket_Book.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ticket_Book.cpp; sourceTree = "<group>"; };
 		166418CB1C90EE8200A5840B /* Ticket_Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ticket_Book.h; sourceTree = "<group>"; };
 		166418CC1C90EE8200A5840B /* Ticket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ticket.cpp; sourceTree = "<group>"; };
 		166418CD1C90EE8200A5840B /* Ticket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ticket.h; sourceTree = "<group>"; };
 		166418CE1C90EE8200A5840B /* Venue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Venue.cpp; sourceTree = "<group>"; };
 		166418CF1C90EE8200A5840B /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		166418D71C90F2AF00A5840B /* tampa_venues.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tampa_venues.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +79,7 @@
 		166418B91C90EDF100A5840B /* Project4 */ = {
 			isa = PBXGroup;
 			children = (
+				166418D71C90F2AF00A5840B /* tampa_venues.txt */,
 				166418C11C90EE8200A5840B /* Address.cpp */,
 				166418C21C90EE8200A5840B /* Address.h */,
 				166418C31C90EE8200A5840B /* Performance.cpp */,
@@ -93,7 +94,6 @@
 				166418CD1C90EE8200A5840B /* Ticket.h */,
 				166418CE1C90EE8200A5840B /* Venue.cpp */,
 				166418CF1C90EE8200A5840B /* Venue.h */,
-				166418C91C90EE8200A5840B /* tampa_venues.txt */,
 				166418BA1C90EDF100A5840B /* main.cpp */,
 			);
 			path = Project4;

@@ -41,19 +41,18 @@ int Get_Venue(Venue** Venue_Array, int Max_Venues)
 	ifstream infile;
 	string filename;
 	//infile.open("tampa_venues.txt");
-
+    system("pwd");
 	while (!infile.is_open())
 	{
-		cout << "What is the file name?";
-		cin >> filename;
+		cout << "What is the file name?\n";
+		getline(cin, filename);
 		infile.open(filename.c_str());
 
 		if (!infile.is_open())
 		{
-			cout << "Failed to open file" << filename << endl;
+			cout << "Failed to open file: " << filename << endl;
 			cout << "Invalid input. Please try again.\n";
-		}
-		
+        }
 	}
 
 	// Input file is open
