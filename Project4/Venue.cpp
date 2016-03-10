@@ -3,6 +3,7 @@
 #include "Venue.h"
 #include "cassert"
 #include "Seat_Row.h"
+#include <fstream>
 
 using namespace std;
 
@@ -29,6 +30,8 @@ const Seat_Row* row = seat_rows[i];
 row->Display();
 }*/
 }
+
+
 
 ostream& operator<<(ostream& os, const Venue* venue)
 {
