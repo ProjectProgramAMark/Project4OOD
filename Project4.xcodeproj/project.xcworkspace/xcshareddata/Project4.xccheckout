@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6DEAC4D6-2E16-48E5-9DF4-6DA0EC4F3D32</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D4FD76289462E93397E517DDBC23C935D19BE93D</key>
+		<string>https://github.com/ProjectProgramAMark/Project4OOD</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Project4.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D4FD76289462E93397E517DDBC23C935D19BE93D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ProjectProgramAMark/Project4OOD</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D4FD76289462E93397E517DDBC23C935D19BE93D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D4FD76289462E93397E517DDBC23C935D19BE93D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Project4OOD</string>
+		</dict>
+	</array>
+</dict>
+</plist>

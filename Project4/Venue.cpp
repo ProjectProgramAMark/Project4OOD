@@ -20,17 +20,6 @@ void Venue::Add_Seat_Row(Seat_Row* seat_row)
 	capacity += seat_row->Number_of_Seats();
 }
 
-void Venue::Display() const
-{
-cout << name << endl;
-address->Display();
-/*for (int i = 0; i < number_of_seat_rows; ++i)
-{
-const Seat_Row* row = seat_rows[i];
-row->Display();
-}*/
-}
-
 
 
 ostream& operator<<(ostream& os, const Venue* venue)
@@ -42,21 +31,10 @@ ostream& operator<<(ostream& os, const Venue* venue)
 
 bool operator<(const Venue& venue1, const Venue& venue2)
 {
-    return venue1.GetAddress()->Get_Zip_code() < venue2.GetAddress()->Get_Zip_code();
+    if(venue1.GetAddress()->Get_Zip_code() == venue2.GetAddress()->Get_Zip_code()) {
+        return (venue1.name.compare(venue2.name) < 0);
+    }
+    return (venue1.GetAddress()->Get_Zip_code() < venue2.GetAddress()->Get_Zip_code());
 }
 
-/*bool Venue::operator > (const Venue& other)  const
-{
 
-if (address == other.address)
-{
-return name > other.name;
-}
-
-else if (address < other.address)
-{
-return name > other.name;
-}
-
-return name > other.name;
-}*/
